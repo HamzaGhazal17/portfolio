@@ -1,0 +1,136 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto; 
+    padding: 0;
+    width: 90%;
+}
+nav{
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    
+    /* width: 90%; */
+    /* margin: 0 auto; */
+    
+
+}
+.blog-heading{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.blog-heading h3{
+    margin-top: 40px;
+    
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    
+   
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    flex-wrap: nowrap;
+    /* margin-right: 50px; */
+}
+i{
+    margin-right: 8px;
+}
+ul li a:hover{
+    color: #D1884F;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+#ch{
+    display: none;
+}
+
+.content{
+    display: none;
+    transition: 0.5s linear;
+}
+label{
+    display: inline-block;
+    
+    color: #008AAA;
+    
+    cursor: pointer;
+    font-weight: 500;
+}
+#ch:checked ~ .content {
+    display: block;
+    
+}
+#ch:checked ~ label{
+    display: none;
+    
+}
+.par{
+    color:#3BBADB ;
+    font-size: 24px;
+}
+h3{
+    color: #008AAA;
+}
+.btn button{
+    /* border: none; */
+    outline: none;
+    margin-top: 30px;
+    
+    
+}
+
+.btn-one{
+    background-color: #008AAA;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 5px 9px  #3BBADB;
+    border: 1px solid #008AAA;
+    width: 110px;
+    
+    
+}
+p{
+    width: 600px;
+}
+.btn-two{
+    background-color:white;
+    color: #008AAA;
+    padding: 10px;
+    border: 1px solid #008AAA;
+    border-radius: 8px;
+    margin-left: 15px;
+    width: 150px;
+}
+.img img{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 0 0 0 100px;
+    
+    box-shadow: -10px 0px 5px #3BBADB ;
+}
+#blog{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 15px;
+}
+  
+  
+  
+  
+  
+  
